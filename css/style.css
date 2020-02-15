@@ -1,0 +1,30 @@
+body {
+    background: url('kanye_head.png') no-repeat center center fixed;
+    font-family: 'Gochi Hand'
+}
+
+#kanyeSays {
+    text-align: center;
+    font-family: 'Gochi Hand';
+    font-size: 30px;
+}
+
+#refreshQuote {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items:
+}
+
+@media screen and (max-width: 600px) {
+   body{
+      display: flex; 
+    }
+    #kanyeSays {
+        text-align: center;
+        font-size: 16px;
+    }
+    #refreshQuote{
+        font-size: 10px;
+    }
+  }
